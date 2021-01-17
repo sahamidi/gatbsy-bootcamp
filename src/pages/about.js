@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 let aboutPage = () => {
     return (
@@ -15,6 +16,7 @@ let aboutPage = () => {
                 both as I would like to be well in all aspects of development of web and 
                 applications.  
             </p>
+            <p> <Link to="/contact">If you want to have me on your team, reach out!!</Link> </p>
         </div>
     )
 }
