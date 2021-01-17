@@ -9,9 +9,12 @@ let  IndexPage = () => {
       <h2>
         Hey there beautiful.  I am Salem Hamidi, a pursuant programmer, 
         feel free to connect.
+
+        OK
       </h2>
     </div>
   )
 }
 
 export default IndexPage 
+
