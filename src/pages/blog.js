@@ -1,19 +1,16 @@
 import React from 'react'
-import Footer from '../components/footer'
-import Header from '../components/header'
+import Layout from '../components/layout'
 
 let blogPage = () => {
     return (
-        <div>
-             <Header/>
+        <Layout>
             <h1>
                 Test Blog Page
             </h1>
             <p>
                 Test Content for my blog page.
             </p>
-            <Footer/>
-        </div>
+        </Layout>
     )
 }
 

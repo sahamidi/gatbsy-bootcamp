@@ -1,12 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Footer from '../components/footer'
-import Header from '../components/header'
+import Layout from '../components/layout'
 
-let  IndexPage = () => {
+
+let IndexPage = () => {
   return (
-    <div>
-      <Header/>
+    <Layout>
       <h1>
         Hello.
       </h1>
@@ -15,10 +14,10 @@ let  IndexPage = () => {
         feel free to connect.
       </h2>
       <p>Need an entry level deveoloper?<Link to="/contact">Contact Me.</Link></p>
-      <Footer/>
-    </div>
+    </Layout>
   )
 }
+
 
 export default IndexPage 
 

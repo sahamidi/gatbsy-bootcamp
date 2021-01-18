@@ -1,12 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Footer from '../components/footer'
-import Header from '../components/header'
+import Layout from '../components/layout'
 
 let aboutPage = () => {
     return (
-        <div>
-            <Header/>
+        <Layout>
             <h1>
                 Who is Salem Hamidi?
             </h1>
@@ -20,8 +18,7 @@ let aboutPage = () => {
                 applications.  
             </p>
             <p> <Link to="/contact">If you want to have me on your team, reach out!!</Link> </p>
-        <Footer/>
-        </div>
+        </Layout>
     )
 }
 
