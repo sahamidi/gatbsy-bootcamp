@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = () =>{
+let Footer = () =>{
     return (
         <footer>
             <p>Created by Yours Truly (Salem Hamidi) copyright 2021</p>

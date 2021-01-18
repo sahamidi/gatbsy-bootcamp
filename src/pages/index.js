@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Footer from "../components/footer"
 
 let  IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ let  IndexPage = () => {
         feel free to connect.
       </h2>
       <p>Need an entry level deveoloper?<Link to="/contact">Contact Me.</Link></p>
+      <Footer/>
     </div>
   )
 }
