@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Footer from '../components/footer'
+import Header from '../components/header'
 
 let aboutPage = () => {
     return (
         <div>
+            <Header/>
             <h1>
                 Who is Salem Hamidi?
             </h1>

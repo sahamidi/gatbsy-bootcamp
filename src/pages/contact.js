@@ -1,11 +1,13 @@
 import React from 'react'
 import Footer from '../components/footer'
+import Header from '../components/header'
 
 // import Footer from "../components/footer"
 
 let contactPage = () => {
     return (
         <div>
+             <Header/>
             <h1>
             My Contact Information
             </h1>
