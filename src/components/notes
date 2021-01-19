@@ -1,0 +1,14 @@
+css modules
+gatsby plugins
+configure gatsby plugins
+css modules are not globally scoped
+regular css with class import is globally scoped
+graphql API - To get data from other places
+graphql get blog post external from app
+https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/?=sass
+
+graphql ide API
+
+graphql use specific schema 
+
+http://localhost:8000/___graphql
