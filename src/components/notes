@@ -12,3 +12,16 @@ graphql ide API
 graphql use specific schema 
 
 http://localhost:8000/___graphql
+ IDE for working with Gatbsby
+
+ cross OS compatible way
+
+ npm install --save-dev env-cmd
+
+ lookup npm install --save-dev env-cmd
+
+ graphql playground
+
+ pagenation
+
+ gatsby-transformer-remark
