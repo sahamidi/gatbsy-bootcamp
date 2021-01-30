@@ -31,7 +31,7 @@ console.log(data)
                 Test Blog Page
             </h1>
                 <ol className = {blogStyles.posts}>
-                    {data.allContentfulBlogPost.map((edge) => {
+                    {data.allContentfulBlogPost.edges.map((edge) => {
                         return (
                             <li className = {blogStyles.post}>
                                 <Link to = {`/blog/${edge.node.slug}`}>
