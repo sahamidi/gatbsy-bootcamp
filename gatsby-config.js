@@ -20,10 +20,10 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: {
-        spaceId: 'dm87hmz9uq9v',
-        accessToken: 'mZezLT-15lEp1u28Dlushh8CRpBPxCBBndKeJu5aT18',
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       }
-    }
+    },
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
